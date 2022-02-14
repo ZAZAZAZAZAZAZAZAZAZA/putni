@@ -1,25 +1,29 @@
-<Html>  
+<!DOCTYPE html>
+<html>  
     <head>   
     <title>  
     Registration Page  
     </title>  
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     </head>  
-    <body bgcolor="#FFFFFF">  
+    <body>  
     <br>  
     <br>  
+    <div class="main">
     <form>  
       
-    <label> Vārds </label>         
-    <input type="text" name="firstname" size="15"/> <br> <br>  
+         
+    <input class="dati"placeholder="Vārds" type="text" name="firstname"/> <br> <br>  
      
-    <label> Uzvārds: </label>         
-    <input type="text" name="lastname" size="15"/> <br> <br>  
+             
+    <input class="dati" placeholder="Uzvārds" type="text" name="lastname" /> <br> <br>  
       
     <label>   
-    Klase :  
+      
     </label>   
     <select>  
-    <option value="Course">Course</option>  
+    <option value="izvēlies klasi">Course</option>  
     <option value="1.klase">1.klase</option>  
     <option value="2.klase">2.klase</option>  
     <option value="3.klase">3.klase</option>  
@@ -35,15 +39,16 @@
     </select>  
     <br> <br>
       
-    Email:  
-    <input type="email" id="email" name="email"/> <br>    
+      
+    <input class="dati" placeholder="email" type="email" id="email" name="email"/> <br>    
     <br> <br>  
-    Password:  
-    <input type="Password" id="pass" name="pass"> <br>   
+      
+    <input class="dati" placeholder="password" type="Password" id="pass" name="pass"> <br>   
     <br> <br>  
-    Re-type password:  
-    <input type="Password" id="repass" name="repass"> <br> <br>  
+      
+    <input class="dati" placeholder="Re-type password" type="Password" id="repass" name="repass"> <br> <br>  
     <input type="button" value="Submit"/>  
     </form>  
+    </div>
     </body>  
     </html>  
