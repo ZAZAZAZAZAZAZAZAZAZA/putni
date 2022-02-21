@@ -17,6 +17,16 @@
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.img-gerbonis {
+    width: 256px;
+    height: 256px;
+    background-image: url(mvg.png);
+    background-size: 50% ;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 75px;
+    z-index:9;
+}
 #bg1{
     position: absolute;
     width:100%;
